@@ -1,0 +1,38 @@
+# Raw Illumina methylation-array data and GEO archives
+*.idat
+*.idat.gz
+*.idat.bgz
+GSE*_RAW.tar
+GSE*_RAW.tar.gz
+*.tar
+*.tar.gz
+*.zip
+
+# Local input and generated-output folders
+/data/raw/
+/data/intermediate/
+/results/
+**/data/raw/
+**/data/intermediate/
+**/results/
+**/metadata/sample_sheet.csv
+
+# Jupyter and R session artifacts
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Logs and common temporary files
+*.log
+*.tmp
+~$*
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Unrelated document artifacts currently in this workspace
+/PPAR_Alpha_CpG_Figure_Explained.docx
+/PPAR_Alpha_CpG_Figure_Explained_QA/
